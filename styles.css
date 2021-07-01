@@ -150,9 +150,15 @@
         color: #B9BDCF;
     }
     
-    @media (mix-width: 768px) {
+    @media (min-width: 768px) {
         html {
             font-size: 62.5%;
+        }
+    }
+    
+    @media (min-width: 411) {
+        html {
+            font-size: 55%;
         }
     }
     
